@@ -1,1 +1,5 @@
-# Module-8-Challenge-ETL
+# Extract, Transform, and Load for Movie Data
+## Purpose
+The purpose of this challenge was to create a pipeline that included extracting, transforming, and loading data from 3 sources of files that included 2 csv's and 1 json file. We created a function that first extracted the data, then cleaned the data by transforming, dropping, reordering columns of data. After transforming the data we were able to load the data using a connection to PostgreSQL into 2 tables that included the data from movies and the data from ratings. 
+## Summary 
+To summarize this challenge it was a 4 step process that included much coding. We were able to define a function extract_transform_load() that took our data and did 3 important tasks, extracting, cleaning, and loading. Through this process we were able to denote the relationship of transferring data into dataframes using pandas, cleaning that data through the use of lambda functions, regular expressions, etc. and then load that data that has just been cleaned to a SQL table where the user can go though that data with SQL queries without the worry of that data being corrupted. 
